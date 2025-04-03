@@ -1,5 +1,5 @@
-       AREA PROGRAM, CODE, READONLY
-ENTRY
+             AREA PROGRAM, CODE, READONLY
+START
 	     LDR R0, MEMORY
 	     LDR R4, RESULT
 	     LDRH R1,[R0]
@@ -15,7 +15,7 @@ LOOP
 	     CMP R5,R3
 	     BHI LOOP
 	     MOV R5,R3
-    	 B LOOP
+    	     B LOOP
 DONE
 	     STR R5,[R4]
 HERE	
