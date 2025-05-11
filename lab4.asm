@@ -1,4 +1,4 @@
-             AREA P1,CODE, READONLY
+             AREA LAB4,CODE, READONLY
 START
 	     LDR R0, MEMORY
 	     MOV R1,#0
