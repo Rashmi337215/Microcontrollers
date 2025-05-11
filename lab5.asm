@@ -1,4 +1,4 @@
-             AREA PROGRAM, CODE, READONLY
+             AREA LAB5, CODE, READONLY
 START
 	     LDR R0, MEMORY
 	     LDR R4, RESULT
