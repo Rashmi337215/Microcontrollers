@@ -1,9 +1,9 @@
-      AREA INT,CODE,READONLY
+      AREA PROGRAM,CODE,READONLY
 START
-	    LDR R0,MEM0
-	    STR R1,[R0]
-	    BX LR
+      LDR R0,MEM0
+      STR R1,[R0]
+      BX LR
 MEM0 
-	    DCD 0X40000000
-	    END
+      DCD 0X40000000
+      END
 	
